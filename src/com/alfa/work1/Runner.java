@@ -8,7 +8,7 @@ public class Runner {
     public void run(String[] parameters) {
         if (parameters.length < 1) {
             print(".\\");
-        } else if ( !Files.isDirectory(Paths.get(parameters[0]))) {
+        } else if (!Files.isDirectory(Paths.get(parameters[0]))) {
             System.out.println("no exist!");
         } else {
             print(parameters[0]);
